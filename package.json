@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "./node_modules/.bin/webpack serve --mode development --open"
+    "start": "./node_modules/.bin/webpack serve --mode development --open",
+    "build": "./node_modules/.bin/webpack --mode production"
   },
   "author": "Sergey Sharpov",
   "license": "ISC",
@@ -18,6 +19,7 @@
   },
   "dependencies": {
     "dat.gui": "^0.7.7",
+    "express": "^4.17.1",
     "lodash": "^4.17.20",
     "three": "^0.125.2",
     "uuid": "^8.3.2"
