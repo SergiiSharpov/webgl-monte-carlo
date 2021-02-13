@@ -1,0 +1,25 @@
+{
+  "name": "cornell-box",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/webpack serve --mode development --open"
+  },
+  "author": "Sergey Sharpov",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.1.0",
+    "webpack": "^5.21.2",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2",
+    "worker-loader": "^3.0.8"
+  },
+  "dependencies": {
+    "dat.gui": "^0.7.7",
+    "lodash": "^4.17.20",
+    "three": "^0.125.2",
+    "uuid": "^8.3.2"
+  }
+}
